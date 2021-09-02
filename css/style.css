@@ -9,13 +9,104 @@ a{
 .p-r{
     position: relative !important;
 }
+.pt-6{
+    padding-top: 60px !important;
+}
+.pt-7{
+    padding-top: 70px !important;
+}
+.pt-8{
+    padding-top: 80px !important;
+}
+.pt-9{
+    padding-top: 90px !important;
+}
+.pt-10{
+    padding-top: 100px !important;
+}
+.pt-11{
+    padding-top: 110px !important;
+}
+.pt-12{
+    padding-top: 120px !important;
+}
+.pb-6{
+    padding-bottom: 60px !important;
+}
+.pb-7{
+    padding-bottom: 70px !important;
+}
+.pb-8{
+    padding-bottom: 80px !important;
+}
+.pb-9{
+    padding-bottom: 90px !important;
+}
+.pb-10{
+    padding-bottom: 100px !important;
+}
+.mb-6{
+    margin-bottom: 60px !important;
+}
+.mb-7{
+    margin-bottom: 70px !important;
+}
+.mb-8{
+    margin-bottom: 80px !important;
+}
+.mb-9{
+    margin-bottom: 90px !important;
+}
+.mb-10{
+    margin-bottom: 100px !important;
+}
+.ml-1{
+    margin-left: 10px !important;
+}
+.ml-2{
+    margin-left: 20px !important;
+}
+.ml-3{
+    margin-left: 30px !important;
+}
+.ml-4{
+    margin-left: 40px !important;
+}
+.ml-5{
+    margin-left: 50px !important;
+}
+
+.ml-6{
+    margin-left: 60px !important;
+}
+.ml-7{
+    margin-left: 70px !important;
+}
+.ml-8{
+    margin-left: 80px !important;
+}
+.ml-9{
+    margin-left: 90px !important;
+}
+.ml-10{
+    margin-left: 100px !important;
+}
+
 .color-white{
     color: #fff !important;
 }
 .line-height{
     line-height: 1.3 !important;
 }
-
+.d-f{
+    display: flex !important;
+}
+.align-center{
+    align-items: center !important;
+}
+.justify-center{
+    justify-content: center !important;
+}
 
 /* 메뉴 */
 header{
@@ -23,6 +114,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 74px;
+    width: 100%;
 }
 .menu{
     display: flex;
@@ -121,10 +213,8 @@ header{
 .top-menu-text>p{
     font-size: 16px;
 }
+
 .btn{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 200px;
     border: 1px solid #181818;
     padding: 10px 0;
@@ -134,4 +224,84 @@ header{
     font-size: 14px;
 }
 
+.sec-02-bg{
+    background-image: url(../img/Difference_bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
 
+.sec-02-content>h1{
+    font-size: 26px;
+}
+
+.sec-02-menu>li{
+    margin-right: 70px;
+    position: relative;
+}
+
+.sec-02-menu>li+li::before{
+    width: 1px;
+    height: 80px;
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: #000;
+    left: -38px;
+    top: 10%;
+}
+
+.interior-bg{
+    background-image: url(../img/Interior_img02.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.interior-bg-left{
+    background-color: rgba(145 , 124, 100, 0.9);
+    width: 40%;
+    height: 100%;
+}
+
+.interior-bg-left-content>p{
+    font-size: 14px;
+    color: #fff;
+}
+.interior-bg-left-content>h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.interior-bg-left-content{
+    padding: 20px;
+}
+
+.slide-btn{
+    width: 40px;
+}
+
+.slide-btn>div{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+.slide-btn>div:nth-child(2){
+    opacity: 0.2;
+}
+.slide-btn>div:nth-child(3){
+    opacity: 0.2;
+}
+.center-bg{
+    background-image: url(../img/center_img.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.center-bg-text{
+    color: #fff;
+}
